@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="countdown_container">
+            <h2>Days Left</h2>
+            <input id="input" type="date" placeholder="Select Date">
+            <div id="error">Please Select a Date</div>
+            <button id="submit" type="submit">Submit</button>
+            <div class="all_counter">
+                <div class="counter">
+                    <p class="count_number" id="days">20</p>
+                    <p class="count_label">Days</p>
+                </div>
+                <div class="counter">
+                    <p class="count_number" id="hours">12</p>
+                    <p class="count_label">Hours</p>
+                </div>
+                <div class="counter">
+                    <p class="count_number" id="minutes">20</p>
+                    <p class="count_label">Minutes</p>
+                </div>
+                <div class="counter">
+                    <p class="count_number" id="seconds">20</p>
+                    <p class="count_label">Seconds</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
